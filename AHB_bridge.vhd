@@ -53,7 +53,7 @@ component state_machine
     dmao : in ahb_dma_out_type;
   );
 end component;
-  
+
 component ahbmst
   port(
     dmai : in ahb_dma_in_type;
@@ -63,7 +63,7 @@ component ahbmst
     ahbo : out ahb_mst_out_type;
     ahbi : in ahb_mst_in_type;
   );
-end component;  
+end component;
 
 component data_swapper
   port(
@@ -71,39 +71,39 @@ component data_swapper
     clkm : in std_logic;
     dmao : in ahb_dma_out_type;
     );
-end component;    
+end component;
 
 begin
 -- instantiating components a.k.a port mapping --
 statemachine: state_machine
   port map(
-    clkm => clkm;
-    rstn => rstn;
-    dmai => dmai;
-    dmao => dmao;
-    HADDR => HADDR;
-    HSIZE => HSIZE;
-    HTRANS => HTRANS;
-    HWDATA => HWDATA;
-    HWRITE => HWRITE;
-    HREADY => HREADY;
+    clkm => clkm,
+    rstn => rstn,
+    dmai => dmai,
+    dmao => dmao,
+    HADDR => HADDR,
+    HSIZE => HSIZE,
+    HTRANS => HTRANS,
+    HWDATA => HWDATA,
+    HWRITE => HWRITE,
+    HREADY => HREADY,
   );
-  
+
 ahbmaster: ahbmst
   port map(
-    clk => clkm;
-    rst => rstn;
-    dmai => dmai;
-    dmao => dmao;
-    ahbi => ahbmi;
-    ahbo => ahbmo;
+    clk => clkm,
+    rst => rstn,
+    dmai => dmai,
+    dmao => dmao,
+    ahbi => ahbmi,
+    ahbo => ahbmo,
   );
-    
+
 dataswapper: data_swapper
   port map(
-    clkm => clkm;
-    dmao => dmao;
-    HRDATA => HRDATA;
+    clkm => clkm,
+    dmao => dmao,
+    HRDATA => HRDATA,
     );
 
 end structural;
