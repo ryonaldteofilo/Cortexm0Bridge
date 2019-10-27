@@ -76,7 +76,7 @@ process(curstate, HTRANS, dmao.ready)
           when FETCH =>
             HREADY <= '0';
             dmai.start <= '0';
-                  if dmao.ready = '1' then
+                  if dmai.ready = '1' then
                       nextstate <= IDLE;
                   else
                       nextstate <= FETCH;

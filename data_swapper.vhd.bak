@@ -20,7 +20,7 @@ entity data_swapper is
     HRDATA : out std_logic_vector (31 downto 0);
     dmao : in ahb_dma_out_type
   );
-end data_swapper;
+end;
 
 architecture dataswap of data_swapper is
 begin

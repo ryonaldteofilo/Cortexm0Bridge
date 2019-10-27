@@ -86,7 +86,7 @@ statemachine: state_machine
     HTRANS => HTRANS,
     HWDATA => HWDATA,
     HWRITE => HWRITE,
-    HREADY => HREADY
+    HREADY => HREADY,
   );
 
 ahbmaster: ahbmst
@@ -96,13 +96,14 @@ ahbmaster: ahbmst
     dmai => dmai,
     dmao => dmao,
     ahbi => ahbmi,
-    ahbo => ahbmo
+    ahbo => ahbmo,
   );
 
 dataswapper: data_swapper
   port map(
     clkm => clkm,
     dmao => dmao,
-    HRDATA => HRDATA
+    HRDATA => HRDATA,
     );
+
 end AHBbridge;
