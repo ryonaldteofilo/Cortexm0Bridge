@@ -13,3 +13,84 @@ library gaisler;
 use gaisler.misc.all;
 library UNISIM;
 use UNISIM.VComponents.all;
+
+entity cm0_wrapper is
+  port(
+    clkm : in std_logic;
+    rstn : in std_logic;
+    ahbmo : out ahb_mst_out_type;
+    ahbmi : in ahb_mst_out;
+  );
+end;
+
+architecture cm0wrapper of cm0_wrapper is
+  signal HADDR : std_logic_vector(31 downto 0);
+  signal HSIZE : std_logic_vector(2 downto 0);
+  signal HTRANS : std_logic_vector(1 downto 0);
+  signal HWDATA : std_logic_vector(31 downto 0);
+  signal HWRITE : std_logic;
+  signal HRDATA : std_logic_vector(31 downto 0);
+  signal HREADY : std_logic;
+
+component CORTEXM0DS is
+  port(
+    HCLK : in std_logic;
+    HRESETn : in std_logic;
+    HADDR : out std_logic_vector(31 downto 0);
+    HSIZE : out std_logic_vector(2 downto 0);
+    HTRANS : out std_logic_vector(1 downto 0);
+    HWDATA : out std_logic_vector(31 downto 0);
+    HWRITE : out std_logic;
+    HRDATA : in std_logic_vector(31 downto 0);
+    HREADY : in std_logic;
+    -- HRESP: in std_logic;
+  );
+end component;
+
+component AHB_bridge is
+  port(
+    clkm : in std_logic;
+    rstn : in std_logic;
+    HADDR : in std_logic_vector(31 downto 0);
+    HSIZE : in std_logic_vector(2 downto 0);
+    HTRANS : in std_logic_vector(1 downto 0);
+    HWDATA : in std_logic_vector(31 downto 0);
+    HWRITE : in std_logic;
+    HRDATA : out std_logic_vector(31 downto 0);
+    HREADY : out std_logic;
+    ahbmo : out ahb_mst_out_type;
+    ahbmi : out ahb_dma_in_type;
+  );
+end component;
+
+begin
+cortexm0: CORTEXM0DS
+  port map(
+    HCLK => clkm,
+    HRESETn => rstn,
+    HADDR => HADDR,
+    HSIZE => HSIZE,
+    HTRANS => HTRANS,
+    HWDATA => HWDATA,
+    HWRITE => HWRITE,
+    HRDATA => HRDATA,
+    HREADY => HREADY,
+    -- HRESP => '0',
+  );
+
+ahbbridge: AHB_bridge
+  port map(
+      clkm => clkm,
+      rstn => rstn,
+      HADDR => HADDR,
+      HSIZE => HSIZE,
+      HTRANS => HTRANS,
+      HWDATA => HWDATA,
+      HWRITE => HWRITE,
+      HRDATA => HRDATA,
+      HREADY => HREADY,
+      ahbmo => ahbmo,
+      ahbmi => ahbmi,
+  );
+
+end cm0wrapper;

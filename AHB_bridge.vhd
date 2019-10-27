@@ -32,7 +32,7 @@ entity AHB_bridge is
  );
 end;
 
-architecture structural of AHB_bridge is
+architecture AHBbridge of AHB_bridge is
 
 signal dmai : ahb_dma_in_type;
 signal dmao : ahb_dma_out_type;
@@ -106,4 +106,4 @@ dataswapper: data_swapper
     HRDATA => HRDATA,
     );
 
-end structural;
+end AHBbridge;

@@ -25,7 +25,6 @@ end;
 architecture dataswap of data_swapper is
 begin
 
---if rising_edge(clkm) then
   HRDATA(7 downto 0) <= dmao.rdata(31 downto 24);
   HRDATA(15 downto 8) <= dmao.rdata(23 downto 16);
   HRDATA(23 downto 16) <= dmao.rdata(15 downto 8);

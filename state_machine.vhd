@@ -35,7 +35,22 @@ signal curstate, nextstate: state_type;
 
 begin
 
-dmai.address 
+dmai.address <= HADDR;
+dmai.size <= HSIZE;
+dmai.wdata <= HWDATA;
+dmai.write <= HWRITE;
+dmai.irq <= '0'
+dmai.busy <= '0'
+dmai.burst <= '0'
+
+process(clkm, rstn)
+  begin
+    if rstn = '0' then
+      curstate <= IDLE
+    elsif rising_edge(clkm) then
+      curstate <= nextstate
+    end if;
+end process;
 
 process(curstate, HTRANS, dmao.ready)
   begin
@@ -68,3 +83,5 @@ process(curstate, HTRANS, dmao.ready)
                   end if;
         end case;
 end process;
+
+end statemachine;
