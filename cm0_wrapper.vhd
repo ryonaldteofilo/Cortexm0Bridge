@@ -18,8 +18,8 @@ entity cm0_wrapper is
   port(
     clkm : in std_logic;
     rstn : in std_logic;
-    ahbmo : out ahb_mst_out_type;
-    ahbmi : in ahb_mst_in_type
+    ahbmi : in ahb_mst_in_type;
+    ahbmo : out ahb_mst_out_type
   );
 end cm0_wrapper;
 
