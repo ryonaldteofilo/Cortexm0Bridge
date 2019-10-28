@@ -65,18 +65,14 @@ process(curstate, HTRANS, dmao.ready)
                   end if;
 
           when PREFETCH =>
-            HREADY <= '1';
-            dmai.start <= '1';
-                  if HTRANS = "10" then
-                      nextstate <= PREFETCH;
-                  else
-                      nextstate <= FETCH;
-                  end if;
-
-          when FETCH =>
             HREADY <= '0';
+            dmai.start <= '1';
+            nextstate <= FETCH;
+                
+          when FETCH =>
+            HREADY <= '1';
             dmai.start <= '0';
-                  if dmai.ready = '1' then
+                  if dmao.ready = '1' then
                       nextstate <= IDLE;
                   else
                       nextstate <= FETCH;

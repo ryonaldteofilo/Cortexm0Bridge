@@ -19,7 +19,8 @@ entity cm0_wrapper is
     clkm : in std_logic;
     rstn : in std_logic;
     ahbmi : in ahb_mst_in_type;
-    ahbmo : out ahb_mst_out_type
+    ahbmo : out ahb_mst_out_type;
+    cm0_led : out std_logic
   );
 end cm0_wrapper;
 
@@ -31,6 +32,7 @@ architecture cm0wrapper of cm0_wrapper is
   signal HWRITE : std_logic;
   signal HRDATA : std_logic_vector(31 downto 0);
   signal HREADY : std_logic;
+  signal LEDLIT : std_logic;
 
 component CORTEXM0DS is
   port(
@@ -42,8 +44,11 @@ component CORTEXM0DS is
     HWDATA : out std_logic_vector(31 downto 0);
     HWRITE : out std_logic;
     HRDATA : in std_logic_vector(31 downto 0);
-    HREADY : in std_logic
-    -- HRESP: in std_logic;
+    HREADY : in std_logic;
+    HRESP: in std_logic;
+    NMI : in std_logic;
+    IRQ : in std_logic_vector(15 downto 0);
+    RXEV : in std_logic
   );
 end component;
 
@@ -64,6 +69,19 @@ component AHB_bridge is
 end component;
 
 begin
+ledblink: process (HRDATA, LEDLIT, clkm)
+begin
+  if falling_edge(clkm) then
+    if HRDATA = "11110000111100001111000011110000" then
+      LEDLIT <= '1';
+    else
+      LEDLIT <= '0';
+    end if;
+  end if;
+end process;
+
+cm0_led <= LEDLIT;   
+
 cortexm0: CORTEXM0DS
   port map(
     HCLK => clkm,
@@ -74,8 +92,11 @@ cortexm0: CORTEXM0DS
     HWDATA => HWDATA,
     HWRITE => HWRITE,
     HRDATA => HRDATA,
-    HREADY => HREADY
-    -- HRESP => '0',
+    HREADY => HREADY,
+    HRESP => '0',
+    NMI => '0',
+    IRQ => (others=>'0'),
+    RXEV => '0'
   );
 
 ahbbridge: AHB_bridge
