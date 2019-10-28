@@ -2,5 +2,4 @@
 ERTS lab source code
 
 requires to be simulated with grlib files from blackboard
-
-test edit Louise
+grlib stuff are config.vhd and leon3mp.vhd
