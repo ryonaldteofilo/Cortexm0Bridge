@@ -22,7 +22,9 @@ entity data_swapper is
   );
 end data_swapper;
 
-architecture dataswap of data_swapper is
+
+-- Inverting the endianness of the data byte by byte, the upper 32 bits are ignored --
+architecture dataswap of data_swapper is  
 begin
 
   HRDATA(7 downto 0) <= dmao.rdata(31 downto 24);

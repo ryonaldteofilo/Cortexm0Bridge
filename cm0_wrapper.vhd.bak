@@ -34,6 +34,9 @@ architecture cm0wrapper of cm0_wrapper is
   signal HREADY : std_logic;
   signal LEDLIT : std_logic;
 
+
+-- Declaring Components of cm0_wrapper --
+
 component CORTEXM0DS is
   port(
     HCLK : in std_logic;
@@ -69,20 +72,24 @@ component AHB_bridge is
 end component;
 
 begin
+
+-- cm0_led blinking as it detects F0F0F0F0 in HRDATA --
 ledblink: process (HRDATA, LEDLIT, clkm)
 begin
-  if falling_edge(clkm) then
-    if HRDATA = "11110000111100001111000011110000" then
-      LEDLIT <= '1';
-    else
-      LEDLIT <= '0';
-    end if;
+    if rising_edge(clkm) then
+      if HRDATA = "11110000111100001111000011110000" then
+        LEDLIT <= '1';
+      else
+        LEDLIT <= '0';
+      end if;
   end if;
 end process;
+cm0_led <= LEDLIT;
 
-LED <= LEDLIT;   
 
-cortexm0: CORTEXM0DS
+-- PORT MAPPING for CORTEX M0 --
+-- any unused input in the CORTEX M0 ports are connected to '0' to prevent errors --
+cortexm0: CORTEXM0DS 
   port map(
     HCLK => clkm,
     HRESETn => rstn,
@@ -99,6 +106,7 @@ cortexm0: CORTEXM0DS
     RXEV => '0'
   );
 
+-- PORT MAPPING for AHB BRIDGE --
 ahbbridge: AHB_bridge
   port map(
       clkm => clkm,

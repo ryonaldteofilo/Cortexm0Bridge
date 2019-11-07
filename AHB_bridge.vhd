@@ -37,8 +37,7 @@ architecture AHBbridge of AHB_bridge is
 signal dmai : ahb_dma_in_type;
 signal dmao : ahb_dma_out_type;
 
--- declaring ports for components --
-
+-- declaring components for AHB_bridge --
 component state_machine 
   port(
     HADDR : in std_logic_vector(31 downto 0);
@@ -74,7 +73,8 @@ component data_swapper
 end component;
 
 begin
--- instantiating components a.k.a port mapping --
+
+-- PORT MAPPING for state_machine --
 statemachine: state_machine
   port map(
     clkm => clkm,
@@ -89,6 +89,7 @@ statemachine: state_machine
     HREADY => HREADY
   );
 
+-- PORT MAPPING for ahbmst --
 ahbmaster: ahbmst
   port map(
     clk => clkm,
@@ -99,6 +100,7 @@ ahbmaster: ahbmst
     ahbo => ahbmo
   );
 
+-- PORT MAPPING for data_swapper --
 dataswapper: data_swapper
   port map(
     clkm => clkm,

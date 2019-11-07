@@ -20,9 +20,9 @@ entity data_swapper is
     HRDATA : out std_logic_vector (31 downto 0);
     dmao : in ahb_dma_out_type
   );
-end;
+end data_swapper;
 
-architecture dataswap of data_swapper is
+architecture dataswap of data_swapper is --flipping the data byte by byte, The upper 32 bits are ignored. 
 begin
 
   HRDATA(7 downto 0) <= dmao.rdata(31 downto 24);

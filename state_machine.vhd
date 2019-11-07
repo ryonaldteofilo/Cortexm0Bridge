@@ -52,27 +52,28 @@ process(clkm, rstn)
     end if;
 end process;
 
+-- State Machine for AHB Bridge --
 process(curstate, HTRANS, dmao.ready)
   begin
         case curstate is
           when IDLE =>
-            HREADY <= '1';
+            HREADY <= '1';  
             dmai.start <= '0';
-                  if HTRANS = "10" then
-                      nextstate <= PREFETCH;
-                  else
+                  if HTRANS = "10" then            -- HREADY is set to '1' to indicate that the AHB-lite bus is ready to accept an address phase --      
+                      nextstate <= PREFETCH;       -- When HTRANS is set to '10', it means that Cortex M0 is ready to do data transfer --
+                  else                             -- Thus when HTRANS is '10', nextstate will be PREFETCH --      
                       nextstate <= IDLE;
                   end if;
 
-          when PREFETCH =>
-            HREADY <= '1';
-            dmai.start <= '1';
+          when PREFETCH =>                          -- Went with Moore machine to avoid timing issues --
+            HREADY <= '1';                          -- dmai.start is set to '1' in this state rather than in the previous state --
+            dmai.start <= '1';                      -- dmai.start set to HIGH to signal the start of data transfer phase --
             nextstate <= FETCH;
                 
-          when FETCH =>
-            HREADY <= '0';
-            dmai.start <= '0';
-                  if dmao.ready = '1' then
+          when FETCH =>                             -- HREADY is set to '0' to indicate that the bus is busy and not ready for another address phase --
+            HREADY <= '0';                          -- dmao.ready is used to notify the state machine that data transfer is completed -- 
+            dmai.start <= '0';                      -- Once dmao.ready is 1, it means that data transfer has been done --
+                  if dmao.ready = '1' then          -- The nextstate goes back to IDLE to prepare for the next address phase and data transfer phase --
                       nextstate <= IDLE;
                   else
                       nextstate <= FETCH;
