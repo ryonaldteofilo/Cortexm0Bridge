@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/ERTS-lab/AHB_bridge.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/ERTS/ERTS-lab/CORTEXM0DS.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/ERTS-lab/cm0_wrapper.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/ERTS/ERTS-lab/cortexm0ds_logic.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/ERTS-lab/data_swapper.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/ERTS-lab/state_machine.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ambatest/ahb_tbfunct.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ambatest/ahbmst_em.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ambatest/ahbslv_em.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ambatest/ahbtbm.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ambatest/ahbtbp.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ambatest/ahbtbs.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ambatest/ambatest.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/arith/arith.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/arith/div32.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/arith/mul32.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ata/ata.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ata/ata_inf.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ata/atactrl.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ata/atactrl_dma.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ata/atactrl_nodma.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ata/atahost_ahbmst.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ata/atahost_amba_slave.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ata/atahost_dma_fifo.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ata/ocidec2_amba_slave.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/can/can.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/can/can_mc.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/can/can_mod.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/can/can_oc.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/can/can_rd.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/can/canmux.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/ahb_slv.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/ddr2buf.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/ddr2sp16a.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/ddr2sp32a.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/ddr2sp64a.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/ddr2spa.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/ddr2spax.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/ddr2spax_ahb.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/ddr2spax_ddr.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/ddrctrl.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/ddrphy_wrap.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/ddrrec.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/ddrsp.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/ddrsp16a.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/ddrsp32a.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/ddrsp64a.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/ddrspa.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/hs.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/gr1553b/gr1553b_pkg.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/greth/ethernet_mac.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/greth/greth.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/greth/greth_gbit.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/greth/greth_gbit_mb.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/greth/greth_mb.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/greth/grethm.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/jtag/ahbjtag.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/jtag/ahbjtag_bsd.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/jtag/bscanregs.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/jtag/bscanregsbd.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/jtag/jtag.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/jtag/jtagcom.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/jtag/jtagtst.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/jtag/libjtagcom.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/memctrl/memctrl.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/memctrl/sdctrl.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/memctrl/sdctrl64.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/memctrl/sdmctrl.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/memctrl/spimctrl.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/memctrl/srctrl.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/ahb_mst_iface.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/ahbdma.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/ahbdpram.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/ahbmst.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/ahbmst2.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/ahbram.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/ahbstat.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/ahbtrace.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/ahbtrace_mb.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/ahbtrace_mmb.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/apbps2.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/apbvga.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/charrom.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/charrom_package.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/gptimer.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/gracectrl.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/grgpio.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/grgpreg.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/grsysmon.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/i2cmst.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/i2cmst_gen.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/i2cslv.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/logan.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/misc.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/rstgen.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/spictrl.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/spictrlx.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/svgactrl.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/wild.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/wild2ahb.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/net/net.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/pci/dmactrl.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/pci/pci.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/pci/pci_mt.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/pci/pci_mtf.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/pci/pci_target.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/pci/pci_tbfunct.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/pci/pciahbmst.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/pci/pcidma.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/pci/pcilib.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/pci/pcipads.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/pci/pcitb.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/pci/pcitb_arb.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/pci/pcitb_clkgen.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/pci/pcitb_master.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/pci/pcitb_master_script.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/pci/pcitb_monitor.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/pci/pcitb_target.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/pci/pcitrace.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/sim/ahbrep.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/sim/ata_device.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/sim/delay_wire.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/sim/grusb_dclsim.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/sim/grusbdcsim.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/sim/phy.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/sim/pwm_check.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/sim/sim.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/sim/spi_flash.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/sim/sram.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/sim/sram16.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/sim/usbsim.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/spacewire/grspw.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/spacewire/grspw2.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/spacewire/grspwm.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/spacewire/spacewire.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/uart/ahbuart.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/uart/apbuart.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/uart/dcom.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/uart/dcom_uart.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/uart/libdcom.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/uart/uart.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/usb/grusb.vhd&quot; into library gaisler</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/amba/ahbctrl.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/amba/amba.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/amba/amba_tp.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/amba/apbctrl.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/amba/defmst.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/amba/devices.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/amba/dma2ahb.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/amba/dma2ahb_pkg.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/amba/dma2ahb_tp.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/modgen/leaves.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/modgen/multlib.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/sparc/cpu_disas.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/sparc/sparc.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/sparc/sparc_disas.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/stdlib/config.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/stdlib/stdio.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/stdlib/stdlib.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/stdlib/testlib.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/stdlib/version.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/util/fpudummy.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/util/util.vhd&quot; into library grlib</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/gencomp/gencomp.vhd&quot; into library techmap</arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\ERTS\ahb_bridge_implementation\cm0_wrapper.ncd
+OUTFILE=C:\ERTS\ahb_bridge_implementation\cm0_wrapper.bit
+FAMILY=Spartan6
+PART=xc6slx100-3fgg676
+WORKINGDIR=C:\ERTS\ahb_bridge_implementation
+LICENSE=ISE
+USER_INFO=210985181_175113628_210671967_605

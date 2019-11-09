@@ -1,0 +1,4 @@
+
+#Created by Constraints Editor (xc6slx100-fgg676-3) - 2019/11/09
+NET "clkm" TNM_NET = clkm;
+TIMESPEC TS_clkm = PERIOD "clkm" 65 MHz HIGH 50%;
