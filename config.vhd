@@ -27,8 +27,11 @@ package config is
   constant CFG_PCIDLL : integer := 0;
   constant CFG_PCISYSCLK: integer := 0;
   constant CFG_CLK_NOFB : integer := 0;
--- Cortex M0 processor
+  
+-- Cortex M0 processor------------------------------
+-- To generate CORTEX M0 processor in leon3mp.vhd --
   constant CFG_CM0 : integer := 1;
+  
 -- LEON3 processor core
   constant CFG_LEON3 : integer := 0;
   constant CFG_NCPU : integer := (1);

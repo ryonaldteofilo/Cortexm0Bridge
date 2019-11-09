@@ -210,6 +210,9 @@ architecture rtl of leon3mp is
   constant BOARD_FREQ : integer := 125000;                                -- input frequency in KHz
   constant CPU_FREQ   : integer := BOARD_FREQ * CFG_CLKMUL / CFG_CLKDIV;  -- cpu frequency in KHz
 
+--------------------------------------------------------------------
+-- Declare cm0_wrapper as a component ------------------------------
+--------------------------------------------------------------------
 component cm0_wrapper is
   port(
     clkm : in std_logic;
@@ -258,6 +261,7 @@ begin
 ----------------------------------------------------------------------
 --- Cortex M0 processor ----------------------------------------------
 ----------------------------------------------------------------------
+-- Generate the CORTEX M0 processor if CFG_CM0 is set to '1' --
 
   cm0gen : if CFG_CM0 = 1 generate
   u1 : cm0_wrapper
