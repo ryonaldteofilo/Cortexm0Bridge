@@ -3,13 +3,13 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.10 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.10 secs
  
 --> Reading design: cm0_wrapper.prj
@@ -105,40 +105,40 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\ERTS\ERTS-lab\cortexm0ds_logic.v" into library work
+Analyzing Verilog file "C:\ERTS\ERTS-lab\ERTS-lab\cortexm0ds_logic.v" into library work
 Parsing module <cortexm0ds_logic>.
-Analyzing Verilog file "C:\ERTS\ERTS-lab\CORTEXM0DS.v" into library work
+Analyzing Verilog file "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" into library work
 Parsing module <CORTEXM0DS>.
-Parsing VHDL file "C:\ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\version.vhd" into library grlib
+Parsing VHDL file "C:\ERTS\ERTS-lab\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\version.vhd" into library grlib
 Parsing package <version>.
-Parsing VHDL file "C:\ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" into library grlib
+Parsing VHDL file "C:\ERTS\ERTS-lab\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" into library grlib
 Parsing package <stdlib>.
 Parsing package body <stdlib>.
-Parsing VHDL file "C:\ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\config.vhd" into library grlib
+Parsing VHDL file "C:\ERTS\ERTS-lab\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\config.vhd" into library grlib
 Parsing package <config>.
-Parsing VHDL file "C:\ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\amba\amba.vhd" into library grlib
+Parsing VHDL file "C:\ERTS\ERTS-lab\grlib-gpl-1.1.0-b4108\lib\grlib\amba\amba.vhd" into library grlib
 Parsing package <amba>.
 Parsing package body <amba>.
-Parsing VHDL file "C:\ERTS\grlib-gpl-1.1.0-b4108\lib\techmap\gencomp\gencomp.vhd" into library techmap
+Parsing VHDL file "C:\ERTS\ERTS-lab\grlib-gpl-1.1.0-b4108\lib\techmap\gencomp\gencomp.vhd" into library techmap
 Parsing package <gencomp>.
-Parsing VHDL file "C:\ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\amba\devices.vhd" into library grlib
+Parsing VHDL file "C:\ERTS\ERTS-lab\grlib-gpl-1.1.0-b4108\lib\grlib\amba\devices.vhd" into library grlib
 Parsing package <devices>.
-Parsing VHDL file "C:\ERTS\grlib-gpl-1.1.0-b4108\lib\gaisler\misc\misc.vhd" into library gaisler
+Parsing VHDL file "C:\ERTS\ERTS-lab\grlib-gpl-1.1.0-b4108\lib\gaisler\misc\misc.vhd" into library gaisler
 Parsing package <misc>.
 Parsing package body <misc>.
-Parsing VHDL file "C:\ERTS\grlib-gpl-1.1.0-b4108\lib\gaisler\misc\ahbmst.vhd" into library gaisler
+Parsing VHDL file "C:\ERTS\ERTS-lab\grlib-gpl-1.1.0-b4108\lib\gaisler\misc\ahbmst.vhd" into library gaisler
 Parsing entity <ahbmst>.
 Parsing architecture <rtl> of entity <ahbmst>.
-Parsing VHDL file "C:\ERTS\ERTS-lab\state_machine.vhd" into library work
+Parsing VHDL file "C:\ERTS\ERTS-lab\ERTS-lab\state_machine.vhd" into library work
 Parsing entity <state_machine>.
 Parsing architecture <statemachine> of entity <state_machine>.
-Parsing VHDL file "C:\ERTS\ERTS-lab\data_swapper.vhd" into library work
+Parsing VHDL file "C:\ERTS\ERTS-lab\ERTS-lab\data_swapper.vhd" into library work
 Parsing entity <data_swapper>.
 Parsing architecture <dataswap> of entity <data_swapper>.
-Parsing VHDL file "C:\ERTS\ERTS-lab\AHB_bridge.vhd" into library work
+Parsing VHDL file "C:\ERTS\ERTS-lab\ERTS-lab\AHB_bridge.vhd" into library work
 Parsing entity <AHB_bridge>.
 Parsing architecture <AHBbridge> of entity <ahb_bridge>.
-Parsing VHDL file "C:\ERTS\ERTS-lab\cm0_wrapper.vhd" into library work
+Parsing VHDL file "C:\ERTS\ERTS-lab\ERTS-lab\cm0_wrapper.vhd" into library work
 Parsing entity <cm0_wrapper>.
 Parsing architecture <cm0wrapper> of entity <cm0_wrapper>.
 
@@ -152,28 +152,28 @@ Going to verilog side to elaborate module CORTEXM0DS
 Elaborating module <CORTEXM0DS>.
 
 Elaborating module <cortexm0ds_logic>.
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\cortexm0ds_logic.v" Line 2069: Assignment to N4i2z4 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\cortexm0ds_logic.v" Line 2072: Assignment to L5i2z4 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 119: Assignment to cm0_r00 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 120: Assignment to cm0_r01 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 121: Assignment to cm0_r02 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 122: Assignment to cm0_r03 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 123: Assignment to cm0_r04 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 124: Assignment to cm0_r05 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 125: Assignment to cm0_r06 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 126: Assignment to cm0_r07 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 127: Assignment to cm0_r08 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 128: Assignment to cm0_r09 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 129: Assignment to cm0_r10 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 130: Assignment to cm0_r11 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 131: Assignment to cm0_r12 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 134: Assignment to cm0_r14 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 147: Assignment to cm0_msp ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 148: Assignment to cm0_psp ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 149: Assignment to cm0_pc ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 150: Assignment to cm0_xpsr ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 151: Assignment to cm0_control ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" Line 152: Assignment to cm0_primask ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\cortexm0ds_logic.v" Line 2069: Assignment to N4i2z4 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\cortexm0ds_logic.v" Line 2072: Assignment to L5i2z4 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 119: Assignment to cm0_r00 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 120: Assignment to cm0_r01 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 121: Assignment to cm0_r02 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 122: Assignment to cm0_r03 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 123: Assignment to cm0_r04 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 124: Assignment to cm0_r05 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 125: Assignment to cm0_r06 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 126: Assignment to cm0_r07 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 127: Assignment to cm0_r08 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 128: Assignment to cm0_r09 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 129: Assignment to cm0_r10 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 130: Assignment to cm0_r11 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 131: Assignment to cm0_r12 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 134: Assignment to cm0_r14 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 147: Assignment to cm0_msp ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 148: Assignment to cm0_psp ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 149: Assignment to cm0_pc ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 150: Assignment to cm0_xpsr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 151: Assignment to cm0_control ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" Line 152: Assignment to cm0_primask ignored, since the identifier is never used
 Back to vhdl to continue elaboration
 
 Elaborating entity <AHB_bridge> (architecture <AHBbridge>) from library <work>.
@@ -189,49 +189,49 @@ Elaborating entity <data_swapper> (architecture <dataswap>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <cm0_wrapper>.
-    Related source file is "C:\ERTS\ERTS-lab\cm0_wrapper.vhd".
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\cm0_wrapper.vhd" line 92: Output port <HBURST> of the instance <cortexm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\cm0_wrapper.vhd" line 92: Output port <HPROT> of the instance <cortexm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\cm0_wrapper.vhd" line 92: Output port <HMASTLOCK> of the instance <cortexm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\cm0_wrapper.vhd" line 92: Output port <TXEV> of the instance <cortexm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\cm0_wrapper.vhd" line 92: Output port <LOCKUP> of the instance <cortexm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\cm0_wrapper.vhd" line 92: Output port <SYSRESETREQ> of the instance <cortexm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\cm0_wrapper.vhd" line 92: Output port <SLEEPING> of the instance <cortexm0> is unconnected or connected to loadless signal.
+    Related source file is "C:\ERTS\ERTS-lab\ERTS-lab\cm0_wrapper.vhd".
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\cm0_wrapper.vhd" line 92: Output port <HBURST> of the instance <cortexm0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\cm0_wrapper.vhd" line 92: Output port <HPROT> of the instance <cortexm0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\cm0_wrapper.vhd" line 92: Output port <HMASTLOCK> of the instance <cortexm0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\cm0_wrapper.vhd" line 92: Output port <TXEV> of the instance <cortexm0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\cm0_wrapper.vhd" line 92: Output port <LOCKUP> of the instance <cortexm0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\cm0_wrapper.vhd" line 92: Output port <SYSRESETREQ> of the instance <cortexm0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\cm0_wrapper.vhd" line 92: Output port <SLEEPING> of the instance <cortexm0> is unconnected or connected to loadless signal.
     Found 1-bit register for signal <cm0_led>.
     Summary:
 	inferred   1 D-type flip-flop(s).
 Unit <cm0_wrapper> synthesized.
 
 Synthesizing Unit <CORTEXM0DS>.
-    Related source file is "C:\ERTS\ERTS-lab\CORTEXM0DS.v".
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r0_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r1_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r2_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r3_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r4_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r5_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r6_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r7_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r8_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r9_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r10_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r11_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r12_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r14_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_msp_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_psp_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_pc_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_apsr_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_ipsr_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_tbit_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_control_o> of the instance <u_logic> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\ERTS\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_primask_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+    Related source file is "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v".
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r0_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r1_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r2_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r3_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r4_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r5_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r6_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r7_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r8_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r9_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r10_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r11_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r12_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_r14_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_msp_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_psp_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_pc_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_apsr_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_ipsr_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_tbit_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_control_o> of the instance <u_logic> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\ERTS\ERTS-lab\ERTS-lab\CORTEXM0DS.v" line 94: Output port <vis_primask_o> of the instance <u_logic> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <CORTEXM0DS> synthesized.
 
 Synthesizing Unit <cortexm0ds_logic>.
-    Related source file is "C:\ERTS\ERTS-lab\cortexm0ds_logic.v".
+    Related source file is "C:\ERTS\ERTS-lab\ERTS-lab\cortexm0ds_logic.v".
     Found 1-bit register for signal <H9i2z4>.
     Found 1-bit register for signal <Wai2z4>.
     Found 1-bit register for signal <Gci2z4>.
@@ -1085,13 +1085,13 @@ Synthesizing Unit <cortexm0ds_logic>.
 Unit <cortexm0ds_logic> synthesized.
 
 Synthesizing Unit <AHB_bridge>.
-    Related source file is "C:\ERTS\ERTS-lab\AHB_bridge.vhd".
+    Related source file is "C:\ERTS\ERTS-lab\ERTS-lab\AHB_bridge.vhd".
     Summary:
 	no macro.
 Unit <AHB_bridge> synthesized.
 
 Synthesizing Unit <state_machine>.
-    Related source file is "C:\ERTS\ERTS-lab\state_machine.vhd".
+    Related source file is "C:\ERTS\ERTS-lab\ERTS-lab\state_machine.vhd".
 WARNING:Xst:647 - Input <dmao_haddr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <dmao_rdata> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <dmao_start> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -1118,7 +1118,7 @@ WARNING:Xst:647 - Input <dmao_mexc> is never used. This port will be preserved a
 Unit <state_machine> synthesized.
 
 Synthesizing Unit <ahbmst>.
-    Related source file is "C:\ERTS\grlib-gpl-1.1.0-b4108\lib\gaisler\misc\ahbmst.vhd".
+    Related source file is "C:\ERTS\ERTS-lab\grlib-gpl-1.1.0-b4108\lib\gaisler\misc\ahbmst.vhd".
         hindex = 0
         hirq = 0
         venid = 1
@@ -1140,7 +1140,7 @@ WARNING:Xst:647 - Input <ahbi_testoen> is never used. This port will be preserve
 Unit <ahbmst> synthesized.
 
 Synthesizing Unit <data_swapper>.
-    Related source file is "C:\ERTS\ERTS-lab\data_swapper.vhd".
+    Related source file is "C:\ERTS\ERTS-lab\ERTS-lab\data_swapper.vhd".
 WARNING:Xst:647 - Input <dmao_haddr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <clkm> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <dmao_start> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -1482,12 +1482,12 @@ clkm           |   15.706|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 50.00 secs
-Total CPU time to Xst completion: 50.57 secs
+Total REAL time to Xst completion: 52.00 secs
+Total CPU time to Xst completion: 51.40 secs
  
 --> 
 
-Total memory usage is 4749900 kilobytes
+Total memory usage is 4748952 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   62 (   0 filtered)

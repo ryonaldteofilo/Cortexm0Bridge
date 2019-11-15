@@ -134,7 +134,7 @@ package config is
   constant CFG_DDR2SP_DELAY7 : integer := (0);
   constant CFG_DDR2SP_NOSYNC : integer := 0;
 -- AHB ROM
-  constant CFG_AHBROMEN : integer := 1;
+  constant CFG_AHBROMEN : integer := 1;  -- Enable AHBROM -- 
   constant CFG_AHBROPIP : integer := 0;
   constant CFG_AHBRODDR : integer := 16#000#;
   constant CFG_ROMADDR : integer := 16#000#;

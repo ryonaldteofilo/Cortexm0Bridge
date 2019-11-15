@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-11-09T17:20:29</DateModified>
+  <DateModified>2019-11-15T00:30:51</DateModified>
   <ModuleName>cm0_wrapper</ModuleName>
-  <SummaryTimeStamp>2019-11-09T16:42:32</SummaryTimeStamp>
-  <SavedFilePath>C:/ERTS/ahb_bridge_implementation/iseconfig/cm0_wrapper.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/ERTS/ahb_bridge_implementation\</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2019-11-15T00:25:23</SummaryTimeStamp>
+  <SavedFilePath>C:/ERTS/ERTS-lab/ERTS-lab/ahb_bridge_implementation/iseconfig/cm0_wrapper.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/ERTS/ERTS-lab/ERTS-lab/ahb_bridge_implementation\</ImplementationReportsDirectory>
   <DateInitialized>2019-11-09T15:31:22</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
