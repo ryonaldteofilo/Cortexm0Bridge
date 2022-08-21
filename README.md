@@ -1,4 +1,6 @@
-# Cortexm0_bridge
-System-on-Chip design for Cortex M0
-
-The main task was to replace a SPARC Leon3 processor with ARM’s Cortex M0 while still using an existing SoC infrastructure. As the two processors use different type of interface (Leon3 uses AHB interface and Cortex M0 uses AHB lite), a bridge must be designed to “translate” the given instructions of Cortex M0 to the AMBA bus. In this project, ModelSim and Xilinx ISE are used for design and simulation.
+## cortexm0Bridge
+SoC design for Cortex M0 <br />
+<br />
+Replace a SPARC Leon3 processor with ARM’s Cortex M0 while still using an existing SoC infrastructure. <br />
+<br />
+Since the two processors use different type of interface (Leon3 with AHB interface and Cortex M0 with AHB lite), a bridge must be made to “translate” the given instructions of Cortex M0 to the AMBA bus. ModelSim and Xilinx ISE are used for design and simulation.
